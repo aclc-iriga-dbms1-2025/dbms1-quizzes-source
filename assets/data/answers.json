@@ -1,0 +1,97 @@
+{
+    "source": {
+        "title": "Database Management System 1",
+        "questions": [
+            {
+                "question_text": "Are said to exhibit physical data independence if they do not depend on the physical schema.",
+                "choices": [
+                    {
+                        "text": "Application Program",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "It is a unit of data – is a symbol or a set of symbols which is used to represent something.",
+                "choices": [
+                    {
+                        "text": "Datum",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "It is a bundle of actions which are done within a database to bring it from one consistent state to a new consistent state.",
+                "choices": [
+                    {
+                        "text": "Transaction",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "It is an association among several entities.",
+                "choices": [
+                    {
+                        "text": "Relationship",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "It is an interpreted data – data supplied with semantics.",
+                "choices": [
+                    {
+                        "text": "Information",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "This is formed by one or more than one attributes.",
+                "choices": [
+                    {
+                        "text": "Tuples",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "This describes the database design at the logical level.",
+                "choices": [
+                    {
+                        "text": "Logical Schema",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "It is design to manage large bodies of information.",
+                "choices": [
+                    {
+                        "text": "Database System",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "This is a characteristic of database that includes also the protection of the database from unauthorized access confidentiality and unauthorized changes.",
+                "choices": [
+                    {
+                        "text": "Data Integrity",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "The overall logical structure schema of a database can be expressed graphically by an",
+                "choices": [
+                    {
+                        "text": "ER Diagram",
+                        "is_correct": true
+                    }
+                ]
+            }
+        ]
+    }
+}
