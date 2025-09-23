@@ -28,11 +28,30 @@
                     <h2 class="question-title text-xl font-semibold mb-4 md:text-2xl">
                         {{ question.question_text }}
                     </h2>
+
+                    <!-- only show image if available -->
+                    <img v-if="question.image" :src="question.image" alt="Question image" class="my-4 rounded-lg">
+
+                    <!-- only show sub-question if available -->
+                    <h2 v-if="question.question_subtext" :src="question.question_subtext" class="question-title text-xl font-semibold mb-4 md:text-2xl">
+                        {{ question.question_subtext }}
+                    </h2>
+
+                    <!-- only show note if available -->
+                    <div class="pl-5">
+                        <h3 v-if="question.question_note" :src="question.question_note" class="question-title text-xl font-semibold mb-4 md:text-1xl">
+                                {{ question.question_note }}
+                        </h3>
+                    </div>
+
                     <ul class="space-y-2">
                         <li 
                             v-for="(choice, cIndex) in question.choices" 
                             :key="cIndex"
-                            :style="{ opacity: choice.is_correct ? 1 : 0.6, color: choice.is_correct ? 'green' : '' }"
+                            :style="{ 
+                                opacity: choice.is_correct ? 1 : 0.6, 
+                                color:   choice.is_correct ? 'green' : ''
+                            }"
                             class="text-base p-2"
                         >
                             {{ choice.text }}
