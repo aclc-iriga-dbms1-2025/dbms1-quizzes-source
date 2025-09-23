@@ -2485,7 +2485,7 @@
             },
             {
                 "question_text": "",
-                "image": "assets/images/11.png",
+                "image": "assets/images/11.PNG",
                 "question_subtext": "SELECT MIN(ID) FROM STOCKS;",
                 "choices": [
                     {
@@ -2523,7 +2523,7 @@
             },
             {
                 "question_text": "",
-                "image": "assets/images/11.png",
+                "image": "assets/images/11.PNG",
                 "question_subtext": "SELECT COUNT(*) FROM STOCKS;",
                 "choices": [
                     {
@@ -2534,7 +2534,7 @@
             },
             {
                 "question_text": "",
-                "image": "assets/images/11.png",
+                "image": "assets/images/11.PNG",
                 "question_subtext": "SELECT COUNT (AVG(PRICE)) FROM STOCKS GROUP BY WAREHOUSE;",
                 "choices": [
                     {
@@ -2572,7 +2572,7 @@
             },
             {
                 "question_text": "",
-                "image": "assets/images/11.png",
+                "image": "assets/images/11.PNG",
                 "question_subtext": "SELECT AVG(NVL(QTY,0)) FROM STOCKS;",
                 "choices": [
                     {
@@ -2583,7 +2583,7 @@
             },
             {
                 "question_text": "",
-                "image": "assets/images/11.png",
+                "image": "assets/images/11.PNG",
                 "question_subtext": "SELECT COUNT(DISTINCT QTY) FROM STOCKS;",
                 "choices": [
                     {
@@ -2594,7 +2594,7 @@
             },
             {
                 "question_text": "",
-                "image": "assets/images/11.png",
+                "image": "assets/images/11.PNG",
                 "question_subtext": "SELECT SUM(QTY) FROM STOCKS WHERE WAREHOUSE IN (1,5) GROUP BY WAREHOUSE HAVING MAX(WAREHOUSE) >=5;",
                 "choices": [
                     {
@@ -2626,7 +2626,7 @@
             },
             {
                 "question_text": "",
-                "image": "assets/images/11.png",
+                "image": "assets/images/11.PNG",
                 "question_subtext": "SELECT AVG(WAREHOUSE) FROM STOCKS;",
                 "choices": [
                     {
@@ -2637,7 +2637,7 @@
             },
             {
                 "question_text": "",
-                "image": "assets/images/11.png",
+                "image": "assets/images/11.PNG",
                 "question_subtext": "SELECT COUNT(PRICE) FROM STOCKS;",
                 "choices": [
                     {
@@ -2648,7 +2648,7 @@
             },
             {
                 "question_text": "",
-                "image": "assets/images/11.png",
+                "image": "assets/images/11.PNG",
                 "question_subtext": "Based on the given table Stocks choose the possible output if the following sql statement is executed.",
                 "question_note": "SELECT MAX(NAME) FROM STOCKS;",
                 "choices": [
@@ -2660,7 +2660,7 @@
             },
             {
                 "question_text": "",
-                "image": "assets/images/11.png",
+                "image": "assets/images/11.PNG",
                 "question_subtext": "Based on the given table Stocks choose the possible output if the following sql statement is executed.",
                 "question_note": "SELECT MIN(PRICE) FROM STOCKS;",
                 "choices": [
