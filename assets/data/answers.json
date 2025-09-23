@@ -91,6 +91,3147 @@
                         "is_correct": true
                     }
                 ]
+            },
+            {
+                "question_text": "It is the collection of basic objects.",
+                "choices": [
+                    {
+                        "text": "Entities",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Is the underlying the structure of a database.",
+                "choices": [
+                    {
+                        "text": "Data Model",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "It is a collection of interrelated data and a set of programs to access those data.",
+                "choices": [
+                    {
+                        "text": "Database Management System",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Are applied to the table and form the logical schema.",
+                "choices": [
+                    {
+                        "text": "Constraints",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "It is collection of data that contains information relevant to an enterprise.",
+                "choices": [
+                    {
+                        "text": "Database",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "It is the collection of information stored in the database at a particular moment is called",
+                "choices": [
+                    {
+                        "text": "Instance of the database",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "It is the term generally used to describe what was done by large mainframe computers from the late 1940's until the early 1980's.",
+                "choices": [
+                    {
+                        "text": "Data Processing",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "This describes the database design at the physical level.",
+                "choices": [
+                    {
+                        "text": "Physical schema",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "This is also known as facts that can be recorded and that have implicit meaning.",
+                "choices": [
+                    {
+                        "text": "Data",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "The overall design of the database is called the",
+                "choices": [
+                    {
+                        "text": "Database schema",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example of dropping the table EMPLOYEES?",
+                "choices": [
+                    {
+                        "text": "DROP TABLE EMPLOYEES;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "ALTER TABLE DROP EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "DROP EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER TABLE DROP TABLE EMPLOYEES;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example of adding a new column CONTACT_NOdatatypeNUMBER size 11 to EMPLOYEES table?",
+                "choices": [
+                    {
+                        "text": "ALTER TABLE EMPLOYEES ADD COLUMN CONTACT_NO NUMBER(11);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER TABLE EMPLOYEES ADD CONTACT_NO NUMBER;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER EMPLOYEES ADD CONTACT_NO NUMBER(11);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER TABLE EMPLOYEES ADD CONTACT_NO NUMBER(11);",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example of truncating the table EMPLOYEES?",
+                "choices": [
+                    {
+                        "text": "ALTER TABLE TRUNCATE TABLE EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER TABLE TRUNCATE EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "TRUNCATE TABLE EMPLOYEES;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "TRUNCATE EMPLOYEES;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example inserting a new value to STUDENTS table that will only add new data to STUD_ID and LASTNAME? The stud_id is 10 and lastname is 'CRUZ' and the rest of the column is set to NULL.",
+                "choices": [
+                    {
+                        "text": "INSERT INTO STUDENTS TABLE VALUES (10,'CRUZ','NULL','NULL');",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "INSERT INTO STUDENTS VALUES (10,'CRUZ','NULL','NULL');",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "INSERT INTO STUDENTS (10,'CRUZ',NULL,NULL);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "INSERT INTO STUDENTS VALUES (10,'CRUZ',NULL,NULL);",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example of modifying the column JOB_ID? Change the datatype size to 10.",
+                "choices": [
+                    {
+                        "text": "ALTER EMPLOYEES MODIFY JOB_ID CHAR(10);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER TABLE EMPLOYEES MODIFY SET JOB_ID CHAR(10);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER EMPLOYEES MODIFY SET JOB_ID CHAR(10);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER TABLE EMPLOYEES MODIFY JOB_ID CHAR(10);",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example of renaming the table EMPLOYEES to WORKERS?",
+                "choices": [
+                    {
+                        "text": "RENAME EMPLOYEES AS WORKERS;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "RENAME TABLE EMPLOYEES TO WORKERS;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "RENAME EMPLOYEES TO WORKERS;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "ALTER TABLE RENAME EMPLOYEES TO WORKERS;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example inserting a new value to STUDENTS table that will only add new data to STUD_ID and LASTNAME? The stud_id is 10 and lastname is ‘CRUZ’",
+                "choices": [
+                    {
+                        "text": "INSERT INTO STUDENTS VALUES (STUD_ID,LASTNAME) (10,’CRUZ’);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "INSERT INTO STUDENTS VALUES (A0,’CRUZ’);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "INSERT INTO STUDENTS (A0,’CRUZ’);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "INSERT INTO STUDENTS(STUD_ID,LASTNAME) VALUES(10,’CRUZ’);",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example of deleting a student record from STUDENTS table whose COURSE is equal to NULL;",
+                "choices": [
+                    {
+                        "text": "DELETE * FROM STUDENTS WHERE COURSE IS NULL;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "DELETE FROM STUDENTS WHERE COURSE IS  =NULL;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "DELETE FROM STUDENTS WHERE COURSE = ‘NULL’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "DELETE FROM STUDENTS WHERE COURSE IS NULL;",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example of adding a new column ADDRESS datatypevarchar size 20 to EMPLOYEES table?",
+                "choices": [
+                    {
+                        "text": "ALTER TABLE EMPLOYEES ADD COLUMN ADDRESS VARCHAR(20);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER TABLE EMPLOYEES SET ADDRESS VARCHAR(20);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER EMPLOYEES ADD ADDRESS VARCHAR(20);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER TABLE EMPLOYEES ADD ADDRESS VARCHAR(20);",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example of removing a column SALARY from EMPLOYEES table?",
+                "choices": [
+                    {
+                        "text": "ALTER EMPLOYEES DROP COLUMN SALARY;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER EMPLOYEES DROP SALARY;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER TABLE EMPLOYEES DROP SALARY;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER TABLE EMPLOYEES DROP COLUMN SALARY;",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example of inserting new values to STUDENTS table where the course is set to NULL;",
+                "choices": [
+                    {
+                        "text": "INSERT INTO STUDENTS VALUES(1,'DELA CRUZ','JUANITO','NULL');",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "INSERT INTO STUDENTS VALUES(1,'DELA CRUZ','JUANITO',NULL);",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "INSERT INTO STUDENTS (1,'DELA CRUZ','JUANITO',NULL);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "INSERT INTO STUDENTS (1,'DELA CRUZ','JUANITO','NULL');",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example of deleting all records in STUDENTS table;",
+                "choices": [
+                    {
+                        "text": "DROP TABLE STUDENTS;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "DELETE * FROM STUDENTS;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "DELETE FROM STUDENTS;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "DELETE TABLE STUDENTS;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example of updating the LASTNAME to ‘REYES’ of all students from STUDENTS table whose STUD_ID is equal to 01020564?",
+                "choices": [
+                    {
+                        "text": "UPDATE TABLE STUDENTS SET STUD_ID = 01020564; WHERE LASTNAME = ‘REYES’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "UPDATE STUDENTS SET LASTNAME = ‘REYES’ WHERE STUD_ID = 01020564;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "UPDATE STUDENTS SET STUD_ID = 01020564; WHERELASTNAME = ‘REYES’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "UPDATE TABLE STUDENTS SET LASTNAME = ‘REYES’ WHERE STUD_ID = 01020564;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example of modifying the column lastname? Change the datatype size to 20.",
+                "choices": [
+                    {
+                        "text": "ALTER TABLE EMPLOYEES MODIFY LASTNAME VARCHAR(20);",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "ALTER EMPLOYEES MODIFY LASTNAME VARCHAR(20);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER TABLE EMPLOYEES SETLASTNAME  =VARCHAR(20);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER EMPLOYEES SET LASTNAME  = VARCHAR(20);",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example of inserting new values to STUDENTS table?",
+                "choices": [
+                    {
+                        "text": "INSERT INTO STUDENTS VALUES(1,'DELA CRUZ','JUANITO','BSIT');",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "INSERT INTO STUDENTSVALUES('1','DELA CRUZ','JUANITO','BSIT');",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "INSERT INTO STUDENTS VALUES(1,DELA CRUZ,JUANITO,BSIT);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "INSERT INTO STUDENTS (1,'DELA CRUZ','JUANITO','BSIT');",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example updating all student COURSE to ‘BSIT’ from STUDENTS table?",
+                "choices": [
+                    {
+                        "text": "UPDATE STUDENTS SET COURSE = ‘BSIT’;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "UPDATE STUDENTS SET COURSE = ‘BSIT’ WHERE COURSE = ‘BSIT’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "UPDATE TABLE STUDENTS SET COURSE = ‘BSIT’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "UPDATE TABLE STUDENTS SET COURSE = ‘BSIT’ WHERE COURSE = ‘BSIT’;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example updating the student LASTNAME TO ‘SANTOS’ and course to ‘BSCS’ whose STUD_ID is equal to 109?",
+                "choices": [
+                    {
+                        "text": "UPDATE EMPLOYEES SET LASTNAME = ‘SANTOS’, COURSE = ‘BSCS’ WHERE STUD_ID = 109;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "UPDATE EMPLOYEES SET LASTNAME = ‘SANTOS’, SET COURSE = ‘BSCS’ WHERE STUD_ID = 109;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "UPDATE TABLE EMPLOYEES SET LASTNAME = ‘SANTOS’, COURSE = ‘BSCS’ WHERE STUD_ID = 109;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "UPDATE TABLE EMPLOYEES SET LASTNAME = ‘SANTOS’, SET COURSE = ‘BSCS’ WHERE STUD_ID = 109;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example of creating a new table STUDENTS? The column STUD_ID is set to primary key.",
+                "choices": [
+                    {
+                        "text": "CREATE TABLE STUDENTS( STUD_ID NUMBER(3) PRIMARY KEY);",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "CREATE TABLE STUDENTS( STUD_ID NUMBER(3) pk);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "CREATE TABLE STUDENTS( STUD_ID NUMBER(3) datatypePRIMARY KEY);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "CREATE STUDENTS( STUD_ID NUMBER(3) PRIMARY KEY);",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example of removing a column FIRSTNAME from EMPLOYEES table?",
+                "choices": [
+                    {
+                        "text": "ALTER EMPLOYEES FROM N FIRSTNAME;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER TABLE EMPLOYEES DROP COLUMN FIRSTNAME;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "ALTER EMPLOYEES FROM COLUMN FIRSTNAME;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER TABLE EMPLOYEES DROP FIRSTNAME;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct example of updating the COURSE to ‘N/A’ of all students from STUDENTS table whose course IS NULL;",
+                "choices": [
+                    {
+                        "text": "UPDATE STUDENTS SET COURSE = ‘N/A’ WHERE COURSE = NULL;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "UPDATE TABLE STUDENTS SET COURSE = ‘N/A’ WHERE COURSE = NULL;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "UPDATE TABLE STUDENTS SET COURSE = ‘N/A’ WHERE COURSE IS NULL;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "UPDATE STUDENTS SET COURSE = ‘N/A’ WHERE COURSE IS NULL;",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is not part of data control language?",
+                "choices": [
+                    {
+                        "text": "Grant",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Revoke",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Insert",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "It is a collection of relations or two-dimensional tables controlled by the Oracle server.",
+                "choices": [
+                    {
+                        "text": "Relational model",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Database management system",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Relational server",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Relational database",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is not part of transaction control?",
+                "choices": [
+                    {
+                        "text": "COMMIT",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SAVEPOINT",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "CREATE",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "ROLLBACK",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is not part of data manipulation language?",
+                "choices": [
+                    {
+                        "text": "merge",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Insert",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Alter",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Update",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "A type of DML statement that is use to add new rows in a table.",
+                "choices": [
+                    {
+                        "text": "TRUNCATE",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "DELETE",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "INSERT",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "UPDATE",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Consists of a collection of DML statements that form a logical unit of work.",
+                "choices": [
+                    {
+                        "text": "Select",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "DDL",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "DML",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Transaction",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Suppose that a user wanted to insert a new value using the implicit method which of the following is the correct example.",
+                "choices": [
+                    {
+                        "text": "INSERT INTO STUDENST(USN_ID, FIRSTNAME) VALUES(10,’ELENA’)",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "INSERT INTO STUDENTS VALUES (USN_ID, FIRSTNAME) (10,’ELENA’)",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "INSERT INTO STUDENTS VALUES (10,’ELENA’)",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "INSERT INTO STUDENTS VALUES (10, NULL,’ELENA’,NULL);",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "It logically represents subsets of data from one or more table.",
+                "choices": [
+                    {
+                        "text": "Index",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Synonym",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Table",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "View",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Suppose that a user wanted to change the datatype of column ADDRESS from Varchar to Char which of the following is the correct example.",
+                "choices": [
+                    {
+                        "text": "ALTER STUDENTS MODIFY ADDRESS VARCHAR(20);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER STUDENTS SET ADDRESS VARCHAR(20);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER TABLE STUDENTS SET ADDRESS VARCHAR(20);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER TABLE STUDENTS MODIFY ADDRESS VARCHAR(20);",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "A type of insert statement that omit the column from the column list.",
+                "choices": [
+                    {
+                        "text": "included",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Implicit",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Explicit",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Excluded",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is not true about ALTER statement?",
+                "choices": [
+                    {
+                        "text": "Modify an existing column definition",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Drop a column",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Insert new row in a table",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Define a default value for the new column",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Suppose that a user uses the DELETE statement as shown below: what is/are the possible output. DELETE from STUDENT;",
+                "choices": [
+                    {
+                        "text": "0 rows are deleted.",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "All rows are deleted but the table is still intact.",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "0 rows are updated.",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "All rows are deleted including table structure.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "A type of DML statement that is use to update existing rows in a table.",
+                "choices": [
+                    {
+                        "text": "DELETE",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "TRUNCATE",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "UPDATE",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "INSERT",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Suppose that a user wanted to update the lastname of student to ‘Santos’ and YR_LVL to ‘Irreg’ whose USN_ID is equal to 50, in one select statement which of the following is the correct sql statement to use.",
+                "choices": [
+                    {
+                        "text": "UPDATE STUDENTS SET LASTNAME = ‘SANTOS’, YR_LVL = ‘IRREG’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "UPDATE STUDENTS SET LASTNAME = ‘SANTOS’, YR_LVL = ‘IRREG’ WHERE USN_ID = 50;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "UPDATE STUDENTS SET LASTNAME = ‘SANTOS’, SET YR_LVL = ‘IRREG’ WHERE USN_ID = 50;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "UPDATE STUDENTS SET LASTNAME = ‘SANTOS’, SET YR_LVL = ‘IRREG’;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "A statement that is use to rename the table or change the existing name of the table.",
+                "choices": [
+                    {
+                        "text": "Alias",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Name",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Update",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Rename",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "A type of insert statement that specify the NULL keyword in the VALUES clause.",
+                "choices": [
+                    {
+                        "text": "included",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Excluded",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Implicit",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Explicit",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "An alter statement that is used to update an existing column datatype or datatype size.",
+                "choices": [
+                    {
+                        "text": "DROP",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "DELETE",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ADD",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "MODIFY",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following datatype is not being used in oracle?",
+                "choices": [
+                    {
+                        "text": "CHAR",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "VARCHAR",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "INT",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "NUMBER",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Suppose that a user wanted to insert a new value using the explicit method which of the following is the correct example.",
+                "choices": [
+                    {
+                        "text": "INSERT INTO STUDENST(USN_ID, FIRSTNAME) VALUES(10,’ELENA’)",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "INSERT INTO STUDENTS VALUES (10, NULL,’ELENA’,NULL);",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "INSERT INTO STUDENTS VALUES (USN_ID, FIRSTNAME) (10,’ELENA’)",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "INSERT INTO STUDENTS VALUES (10,’ELENA’)",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "An alter statement that is used to add new column to the table.",
+                "choices": [
+                    {
+                        "text": "ADD",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "DELETE",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "MODIFY",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "DROP",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Suppose that a user wanted to add a new column name as CITY datatype set to char size 10. Which of the following is the correct sql statement?",
+                "choices": [
+                    {
+                        "text": "ALTER TABLE STUDENTS ADD CITY CHAR(10);",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "ALTER TABLE STUDENTS ADD COLUMN CITY CHAR(10);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER TABLE STUDENTS ADD COLUMN CITY VARCHAR(10);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER TABLE STUDENTS ADD CITY VARCHAR(10);",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "A type of DML statement that is use to remove existing rows in a table.",
+                "choices": [
+                    {
+                        "text": "TRUNCATE",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "UPDATE",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "INSERT",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "DELETE",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Basic unit of storage composed of rows and columns",
+                "choices": [
+                    {
+                        "text": "Synonym",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Index",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "View",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Table",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "An alter statement that is used to delete an existing column in the table.",
+                "choices": [
+                    {
+                        "text": "DELETE",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "MODIFY",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "DROP",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "ADD",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Supposed that the user uses the ff SELECT statement: what will be the possible output. SELECT GRADE AS STUDENT MARK FROM GRADE_REPORT;",
+                "choices": [
+                    {
+                        "text": "Will display all rows and columns.",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Error because of the keyword AS.",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Will display the column GRADE rename as STUDENT MARK",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Error because of missing “” mark.",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "This is use to create expression with number and date values.",
+                "choices": [
+                    {
+                        "text": "Numerical Values",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Arithmetic expression",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Logical Condition",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "MDAS operator",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "This is used to brings together data that is stored in different tables by specifying the link between them.",
+                "choices": [
+                    {
+                        "text": "Selection",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Projection",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Joins",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Inclusion",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is not true about writing SQL statements?",
+                "choices": [
+                    {
+                        "text": "SQL statements are not case sensitive.",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Clauses are usually placed on separate lines for readability and ease of editing.",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Indents should be used to make code more readable.",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Keywords cannot be split across lines or abbreviated.",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "It is a character, a number, or a date that is included in the SELECT statement.",
+                "choices": [
+                    {
+                        "text": "Table name",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Alias",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Literal",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "String",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "A system used to concatenate one column to another column.",
+                "choices": [
+                    {
+                        "text": "AS",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "||",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "*",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "🥚",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "It is a value that is unavailable, unassigned, unknown, or inapplicable.",
+                "choices": [
+                    {
+                        "text": "NULL",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Blank",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Space",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Zero",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "This is use to Selects the columns in a table that are returned by a query. Selects a few or as many of the columns as required.",
+                "choices": [
+                    {
+                        "text": "Selection",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Projection",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Joins",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Inclusion",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "This is used to selects the rows in a table that are returned by a query. Various criteria can be used to restrict the rows that are retrieved.",
+                "choices": [
+                    {
+                        "text": "Selection",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Projection",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Inclusion",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Joins",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "This character is used to override the default precedence or to clarify the statement.",
+                "choices": [
+                    {
+                        "text": "AS",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "||",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "*",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "🥚",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct report that will display the distinct value for CLASS and WAREHOUSE limit the rows by getting only the parts under WAREHOUSE 3?",
+                "choices": [
+                    {
+                        "text": "SELECT CLASS, WAREHOUSE FROM PARTS WHERE WAREHOUSE = 3;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT CLASS, WAREHOUSE FROM PARTS WHERE WAREHOUSE = ‘3’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT CLASS, WAREHOUSE FROM PARTS WHERE WAREHOUSE = =3;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT CLASS, WAREHOUSE =3 FROM PARTS WHERE WAREHOUSE = 3;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct report that will list only the column DESCRIPTION, PARTNUM, CLASS, and PRICE of all PART whose CLASS is equal to HW.",
+                "choices": [
+                    {
+                        "text": "SELECT DESCRIPTION, PARTNUM, CLASS, PRICE FROM PARTS WHERE CLASS=’HW’;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, PARTNUM, CLASS, PRICE FROM PARTS WHERE class=\"HW\";",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT ‘DESCRIPTION’, ‘PARTNUM’, ‘CLASS’, ‘PRICE’ FROM PARTS WHERE CLASS=’HW’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT COLUMN DESCRIPTION, PARTNUM, CLASS, PRICE FROM PARTS WHERE CLASS=’HW’;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct report listing only the column PARTNUM, DESCRIPTION and PRICE of all PARTS where price is less than 500. Sort the PRICE in ascending order.",
+                "choices": [
+                    {
+                        "text": "SELECT PARTNUN, DESCRIPTION, PRICE FROM PARTS WHERE PRICE < 500;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT PARTNUN, DESCRIPTION, PRICE FROM PARTS WHERE PRICE > 500;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT PARTNUN, DESCRIPTION, PRICE FROM PARTS WHERE PRICE <=500;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT PARTNUN, DESCRIPTION, PRICE FROM PARTS WHERE PRICE >= 500;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct report listing only the column DESCRIPTION, PARTNUM, CLASS and PRICE of all parts where the description fourth letter starting from the first is equal to ‘D’.",
+                "choices": [
+                    {
+                        "text": "SELECT DESCRIPTION, PARTNUM, CLASS, PRICES FROM PARTS WHERE DESCRIPTION LIKE ‘___D%’;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, PARTNUM, CLASS, PRICES FROM PARTS WHERE DESCRIPTION LIKE ‘%D___’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, PARTNUM, CLASS, PRICES FROM PARTS WHERE DESCRIPTION LIKE ‘D%’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, PARTNUM, CLASS, PRICES FROM PARTS WHERE DESCRIPTION LIKE ‘%D’;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct report listing only the column DESCRIPTION, CLASS and PRICE of all PARTS where class is not equal to AP.",
+                "choices": [
+                    {
+                        "text": "SELECT DESCRIPTION, CLASS, PRICE FROM PARTS WHERE CLASS NOT LIKE ‘%AP%’;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, CLASS, PRICE FROM PARTS WHERE CLASS NOT LIKE ‘%AP’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, CLASS, PRICE FROM PARTS WHERE CLASS != AP;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, CLASS, PRICE FROM PARTS WHERE CLASS <> AP;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct report listing only the column CLASS, DESCRIPTION and PRICE of all PARTS where price range is between 200 to 500. Sort the Price in descending order.",
+                "choices": [
+                    {
+                        "text": "SELECT CLASS, DESCRIPTION, PRICE FROM PARTS WHERE PRICE BETWEEN 200 AND 500;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT CLASS, DESCRIPTION, PRICE FROM PARTS WHERE PRICE BETWEEN 500 AND 500;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT CLASS, DESCRIPTION, PRICE FROM PARTS WHERE PRICE BETWEEN =200 AND 500;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT CLASS, DESCRIPTION, PRICE FROM PARTS WHERE PRICE BETWEEN 200 AND BETWEEN 500;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct report listing only the column DESCRIPTION, ONHAND and WAREHOUSE of all PARTS where ONHAND is greater than or equal to 21.",
+                "choices": [
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, WAREHOUSE FROM PARTS WHERE ONHAND >=21;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, WAREHOUSE FROM PARTS WHERE ONHAND <=21;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, WAREHOUSE FROM PARTS WHERE ONHAND =21;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, WAREHOUSE FROM PARTS WHERE ONHAND >21;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct report showing all rows and columns sort the description in ascending order.",
+                "choices": [
+                    {
+                        "text": "SELECT * FROM PARTS ORDER BY DESCRIPTION DESC;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT * FROM PARTS ORDER BY DESCRIPTION;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT * FROM PARTS ORDER BY DESCRIPTION ASC;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT * FROM PARTS ORDER BY DESC;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct report listing only the column DESCRIPTION, WAREHOUSE, CLASS and PRICE of all parts where the description contains keyword ‘SHE’.",
+                "choices": [
+                    {
+                        "text": "SELECT DESCRIPTION, WAREHOUSE, CLASS, PRICE FROM PARTS WHERE DESCRIPTION LIKE ‘%SHE%’;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, WAREHOUSE, CLASS, PRICE FROM PARTS WHERE DESCRIPTION LIKE ‘SHE%’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, WAREHOUSE, CLASS, PRICE FROM PARTS WHERE DESCRIPTION LIKE ‘%SHE’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, WAREHOUSE, CLASS, PRICE FROM PARTS WHERE DESCRIPTION LIKE ‘SHE’;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct report that will merge the column DESCRIPTION and PRICE put a literal character string of = “ with a price of ” in between the two columns. Limit the rows returned by getting only the partnum that starts with letter ‘K’",
+                "choices": [
+                    {
+                        "text": "SELECT (DESCRIPTION|| ‘WITH A PRICE OF’ || PRICE) FROM PARTS WHERE PARTNUM LIKE ‘K%’;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT (DESCRIPTION|| ‘WITH A PRICE OF’ || PRICE) FROM PARTS WHERE PARTNUM LIKE ‘%K’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT (DESCRIPTION|| ‘WITH A PRICE OF’ || PRICE) FROM PARTS WHERE PARTNUM LIKE ‘%K%’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT (DESCRIPTION|| ‘WITH A PRICE OF’ || PRICE) FROM PARTS WHERE PARTNUM LIKE ‘__K%’;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct report that will display the DESCRIPTION, WAREHOUSE AND distinct value for CLASS.",
+                "choices": [
+                    {
+                        "text": "SELECT DESCRIPTION, WAREHOUSE, DISTINCT (CLASS) FROM PARTS;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, WAREHOUSE, CLASS FROM PARTS;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DISTINCT DESCRIPTION, WAREHOUSE, CLASS FROM PARTS;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, WAREHOUSE, DISTINCT ‘CLASS ‘ FROM PARTS;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct report listing the column PARTNO, DESCRIPTION and WAREHOUSE. Get only that description that does not ends with ‘ER’. Note that you have to merge the said three columns, rename the merge column as “Parts Record”. Below is the sample output for column. Parts Record AT94is the part number ofIRONwhich belong to warehouse3",
+                "choices": [
+                    {
+                        "text": "SELECT (PARTNUM || ‘is the part number of’|| DESCRIPTION || ‘which belongs to’ || WAREHOUSE FROM PARTS WHERE PARTNUM NOT LIKE ‘%ER’;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT (PARTNUM || ‘is the part number of’ ||DESCRIPTION || ‘which belongs to’ || WAREHOUSE) FROM PARTS WHERE PARTNUM NOT LIKE ‘ER%’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT (PARTNUM ‘is the part number of’ DESCRIPTION‘which belongs to’WAREHOUSE) FROM PARTS WHERE PARTNUM NOT LIKE ‘%ER’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT (PARTNUM || ‘is the part number of’ ||DESCRIPTION || ‘which belongs to’ || WAREHOUSE) FROM PARTS WHERE PARTNUM LIKE ‘%ER’;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct report listing only the column PARTNUM, CLASS and ONHAND of all parts where partnum is equal to AT94, DR93 and KV29. (Note 1 query only and do not use logical condition)",
+                "choices": [
+                    {
+                        "text": "SELECT PARTNUM, CLASS, ONHAND FROM PARTS WHERE PARTNUM IN (‘AT94’,’DR93’,’KV29’);",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT PARTNUM, CLASS, ONHAND FROM PARTS WHERE PARTNUM IN (AT94,DR93,KV29);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT PARTNUM, CLASS, ONHAND FROM PARTS WHERE PARTNUM = (‘AT94’,’DR93’,’KV29’);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT PARTNUM, CLASS, ONHAND FROM PARTS WHERE PARTNUM NOT IN (‘AT94’,’DR93’,’KV29’);",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct report listing only the column DESCRIPTION, ONHAND, CLASS and PRICE of all price where the description ends with letter ‘N’.",
+                "choices": [
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASSS FROM PARTS WHERE DESCRIPTION LIKE ‘%N’;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASSS FROM PARTS WHERE DESCRIPTION LIKE ‘N%’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASSS FROM PARTS WHERE DESCRIPTION LIKE ‘%N%’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASSS FROM PARTS WHERE DESCRIPTION NOT LIKE ‘%N’;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is the correct report listing the DESCRIPTION and Price (Note that in column PRICE add ADDITIONAL 10000). Get only the prices with no digit that is equal to ‘5’. Note that you have to concatenate the said column and rename the merge column as “New Price Lists”. Sort the data in DESC order by Price.",
+                "choices": [
+                    {
+                        "text": "SELECT DESCRIPTION, PRICE + 10000 AS “NEW PRICE LISTS” FROM PARTS ORDER BY PRICE DESC;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, PRICE + 10000 AS NEW PRICE LISTS FROM PARTS ORDER BY PRICE DESC",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, PRICE + 10000 AS “NEW PRICE LISTS” FROM PARTS ORDER BY PRICE;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, PRICE + 10000 + PRICE AS “NEW PRICE LISTS” FROM PARTS ORDER BY PRICE DESC;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "This is used to perform wildcard searches of valid search string values.",
+                "choices": [
+                    {
+                        "text": "Between",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Comparison",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Like",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "IN",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "This is used to display rows based on a range of values.",
+                "choices": [
+                    {
+                        "text": "Between",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Comparison",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Like",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "IN",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "This is used to in conditions that compare one expression with another value or expression.",
+                "choices": [
+                    {
+                        "text": "Comparison",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Subtraction",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Add",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Logical Condition",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "True/False. This symbol % denotes zero or many characters.",
+                "choices": [
+                    {
+                        "text": "TRUE",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "True/False. The != not equal to symbol is also equal to this symbol<>.",
+                "choices": [
+                    {
+                        "text": "TRUE",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "True/False. Character strings and date values are enclosed with double quotation marks.",
+                "choices": [
+                    {
+                        "text": "FALSE",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "True/False Character values are format sensitive and date values are case sensitive-sensitive.",
+                "choices": [
+                    {
+                        "text": "FALSE",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "This is used to test for values in a specified set of values.",
+                "choices": [
+                    {
+                        "text": "Between",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Comparison",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Like",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "IN",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "This is used to restrict the rows that are returned by a query.",
+                "choices": [
+                    {
+                        "text": "Delete",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Insert",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Select",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Where",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "True/False. A null value means that the value is unavailable, unassigned, unknown, or inapplicable.",
+                "choices": [
+                    {
+                        "text": "TRUE",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Given the output below. Which of the following is the correct PL/SQL to be used?",
+                "image": "assets/images/1.png",
+                "choices": [
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASS FROM PARTS WHERE CLASS = ‘AP’ OR CLASS = ‘HW’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASS FROM PARTS WHERE DESCRIPTION LIKE ‘R%’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASS FROM PARTS WHERE DESCRIPTION LIKE ‘%R’;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASS FROM PARTS WHERE CLASS IN (‘HW’,’AP’)",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Given the output below. Which of the following is the correct PL/SQL to be used?",
+                "image": "assets/images/2.png",
+                "choices": [
+                    {
+                        "text": "SELECT DESCRIPTION, PRICE *.5 +PRICE-100 FROM PARTS WHERE PRICE <10000",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, (PRICE *.5 )+PRICE-100 FROM PARTS WHERE PRICE >10000;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, PRICE *.5 +(PRICE-100) FROM PARTS WHERE PRICE <10000;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, PRICE *.5 +PRICE-100 FROM PARTS WHERE PRICE >10000;",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Given the output below. Which of the following is the correct PL/SQL to be used?",
+                "image": "assets/images/3.png",
+                "choices": [
+                    {
+                        "text": "SELECT * FROM TABLE PARTS;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT ALL COLUMN FROM PARTS;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT ALL FROM PARTS;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT * FROM PARTS;",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Given the output below. Which of the following is the correct PL/SQL to be used?",
+                "image": "assets/images/4.png",
+                "choices": [
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND,CLASS FROM PARTS WHERE ONHAND IN(50,21,22);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND,CLASS FROM PARTS WHERE CLASS = ‘HW’;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND,CLASS FROM PARTS WHERE CLASS = HW",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND,CLASS FROM PARTS WHERE ONHAND >=21;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Given the output below. Which of the following is the correct PL/SQL to be used?",
+                "image": "assets/images/5.png",
+                "choices": [
+                    {
+                        "text": "SELECT (PARTNUM|| ‘belong to’||DESCRIPTION) FROM PARTS WHERE CLASS = ‘SG’;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT (PARTNUM|| ‘belong to’||DESCRIPTION) FROM PARTS WHERE CLASS = SG;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT (PARTNUM|| ‘belong to’||DESCRIPTION) FROM PARTS WHERE PARTNUM IN (‘BV06,’KV29’)",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT (PARTNUM|| belong to||DESCRIPTION) FROM PARTS WHERE CLASS = ‘SG’;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Given the output below. Which of the following is the correct PL/SQL to be used?",
+                "image": "assets/images/6.png",
+                "choices": [
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASS FROM PARTS WHERE CLASS = ‘AP’ OR ONHAND BETWEEN 8 AND 12;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASS FROM PARTS WHERE CLASS = ‘AP’ OR DESCRIPTION LIKE ‘%ER’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASS FROM PARTS WHERE CLASS = ‘AP’ AND DESCRIPTION LIKE ‘%ER’;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASS FROM PARTS WHERE CLASS = ‘AP’ AND ONHAND BETWEEN 8 AND 12",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Given the output below. Which of the following is the correct PL/SQL to be used?",
+                "image": "assets/images/7.png",
+                "choices": [
+                    {
+                        "text": "SELECT DISTINCT WAREHOUSE, CLASS FROM PARTS WHERE WAREHOUSE >=1;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT WAREHOUSE, CLASS FROM PARTS;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DISTINCT WAREHOUSE, CLASS FROM PARTS;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT WAREHOUSE, CLASS FROM PARTS WHERE CLASS IN (‘AP’,’SG’,’HW’);",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Given the output below. Which of the following is the correct PL/SQL to be used",
+                "image": "assets/images/8.png",
+                "choices": [
+                    {
+                        "text": "SELECT WAREHOUSE, CLASS FROM PARTS;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DICTINCT WAREHOUSE, CLASS FROM PARTS WHERE WAREHOUSE >=1;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DISTINCT WAREHOUSE FROM PARTS;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT WAREHOUSE, CLASS FROM PARTS WHERE CLASS IN (‘AP’,’SG’,’HW’);",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Given the output below. Which of the following is the correct PL/SQL to be used?",
+                "image": "assets/images/9.png",
+                "choices": [
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASS FROM PARTS WHERE CLASS = ‘AP’ OR ONHAND BETWEEEN 8 AND 12",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASS FROM PARTS WHERE CLASS = ‘AP’ OR ONHAND >=8;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASS FROM PARTS WHERE CLASS = ‘AP’ OR DESCRIPTION LIKE ‘__S%’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASS FROM PARTS WHERE CLASS = ‘AP’ AND DESCRIPTION LIKE ‘__S%’;",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Given the output below. Which of the following is the correct PL/SQL to be used?",
+                "image": "assets/images/10.png",
+                "choices": [
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASS FROM PARTS WHERE DESCRIPTION LIKE ‘%L’;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASS FROM PARTS WHERE ONHAND >=9;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASS FROM PARTS WHERE DESCRIPTION LIKE ‘%L%’",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DESCRIPTION, ONHAND, CLASS FROM PARTS WHERE CLASS IN (‘HW’,’SG’);",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is not the correct example of entity?",
+                "choices": [
+                    {
+                        "text": "STUDENT",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ORDERS",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "EMPLOYEES",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Phone_no",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is not part of handling data?",
+                "choices": [
+                    {
+                        "text": "Data Management Systems",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Semi-Computerized",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Data Processing",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "File Oriented Approach",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is not part of disadvantage of database?",
+                "choices": [
+                    {
+                        "text": "Data integrity",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Costs",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Lower Efficiency",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Qualified Personnel",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is not part of advantage of database?",
+                "choices": [
+                    {
+                        "text": "Database instance",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Data integrity and security",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Data independence",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Efficient data access",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is not part of common Comparison operator?",
+                "choices": [
+                    {
+                        "text": "<",
+                        "is_correct": false
+                    },
+                    {
+                        "text": ">",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "!",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "LIKE",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "True/False. Security is one of the characteristic of database that includes also the protection of the database from unauthorized access confidentiality and unauthorized changes.",
+                "choices": [
+                    {
+                        "text": "FALSE",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is not part of DML statement?",
+                "choices": [
+                    {
+                        "text": "INSERT",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "MERGER",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "CREATE table",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "UPDATE",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "True/False. Database is the term generally used to describe what was done by large mainframe computers from the late 1940's until the early 1980's.",
+                "choices": [
+                    {
+                        "text": "False",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is not part of basic SELECT statement",
+                "choices": [
+                    {
+                        "text": "Alias",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Logical condition",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Specific Column",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Concat",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Suppose that the user wanted to add a new column name as CUST_NAME data type char size 6. What is the correct type of statement to use?",
+                "choices": [
+                    {
+                        "text": "INSERT",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ALTER",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "UPDATE",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "DELETE",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "True/False. Table is known as the collection of data that contains information relevant to an enterprise.",
+                "choices": [
+                    {
+                        "text": "FALSE",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "True/False. Database Management System is a collection of interrelated data and a set of programs to access those data.",
+                "choices": [
+                    {
+                        "text": "TRUE",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is not part of DDL statement?",
+                "choices": [
+                    {
+                        "text": "DELETE",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "ALTER",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "CREATE",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "None of the choices",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is not part of other Comparison Operator?",
+                "choices": [
+                    {
+                        "text": "Between AND",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "<>",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "IS NUL",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "IN",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "True/False. Database Architecture is the overall design of the database",
+                "choices": [
+                    {
+                        "text": "FALSE",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following is not part of characteristics of database?",
+                "choices": [
+                    {
+                        "text": "Data Processing",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Transactions",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Data Integrity",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Data Persistence",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "This is use to return one result per group of row.",
+                "choices": [
+                    {
+                        "text": "Number function",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Dual table",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Single row",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Multiple row",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "This is use to find the numeric position of a named character starting at character position n.",
+                "choices": [
+                    {
+                        "text": "INSTR",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Trim",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SUBSTR",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Length",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "This is use to accept character input and can return both character and number values.",
+                "choices": [
+                    {
+                        "text": "Multiple row function",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Number function",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Character function",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Case manipulation function",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "It is use to accept numeric input and return numeric values.",
+                "choices": [
+                    {
+                        "text": "Number function",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Case manipulation function",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Character function",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Multiple row function",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Extracts a string of determined length.",
+                "choices": [
+                    {
+                        "text": "INSTR",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SUBSTR",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Length",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Trim",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "This is used to converts the first letter of each word to uppercase and the remaining letters to lowercase.",
+                "choices": [
+                    {
+                        "text": "INITCAT",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Upper case",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "lowercase",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Sentence case",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "This is use to return one result per row.",
+                "choices": [
+                    {
+                        "text": "Number function",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Single row",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Dual table",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Multiple row",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "What is the return value if the user try to do the following: SELECT TRUNC (65.73,-2) FROM DUAL;",
+                "choices": [
+                    {
+                        "text": "60",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "00",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "0",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "600",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "It is a table that is owned by the user SYS and can be accessed by all users.",
+                "choices": [
+                    {
+                        "text": "Dual",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Parts",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Employees",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Authors",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Trims leading or trailing characters (or both) from a character string.",
+                "choices": [
+                    {
+                        "text": "INSTR",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SUBSTR",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Trim",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Length",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "",
+                "image": "assets/images/11.png",
+                "question_subtext": "SELECT MIN(ID) FROM STOCKS;",
+                "choices": [
+                    {
+                        "text": "1",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "This query returns rows in the first query that are not present in the second query.",
+                "choices": [
+                    {
+                        "text": "Minus",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "This query returns rows that are common to both queries.",
+                "choices": [
+                    {
+                        "text": "Intersection",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "A type of function returns one result per group of row",
+                "choices": [
+                    {
+                        "text": "Multiple-row functions",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "",
+                "image": "assets/images/11.png",
+                "question_subtext": "SELECT COUNT(*) FROM STOCKS;",
+                "choices": [
+                    {
+                        "text": "9",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "",
+                "image": "assets/images/11.png",
+                "question_subtext": "SELECT COUNT (AVG(PRICE)) FROM STOCKS GROUP BY WAREHOUSE;",
+                "choices": [
+                    {
+                        "text": "3",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "A type of function that accept numeric input and return numeric values",
+                "choices": [
+                    {
+                        "text": "Number Function",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "A type of function returns one result per row.",
+                "choices": [
+                    {
+                        "text": "Single-row functions",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "A type of function that accepts character input and can return both character and number values.",
+                "choices": [
+                    {
+                        "text": "Character Function",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "",
+                "image": "assets/images/11.png",
+                "question_subtext": "SELECT AVG(NVL(QTY,0)) FROM STOCKS;",
+                "choices": [
+                    {
+                        "text": "8.22",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "",
+                "image": "assets/images/11.png",
+                "question_subtext": "SELECT COUNT(DISTINCT QTY) FROM STOCKS;",
+                "choices": [
+                    {
+                        "text": "4",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "",
+                "image": "assets/images/11.png",
+                "question_subtext": "SELECT SUM(QTY) FROM STOCKS WHERE WAREHOUSE IN (1,5) GROUP BY WAREHOUSE HAVING MAX(WAREHOUSE) >=5;",
+                "choices": [
+                    {
+                        "text": "1",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "It combines the results of two or more component queries into one result.",
+                "choices": [
+                    {
+                        "text": "`UNION` or `UNION ALL` is the possible answer but it's wrong! (even ChatGPT can't guess it, LOL OED sucks!)",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "I used to answer `SET OPERATOR`, but I ran out of attempts.",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "You can try it and please submit feedback using this link: https://github.com/aclc-iriga-dbms1-2025/dbms1-quizzes-source/issues",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ARIGATHANKS!",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "",
+                "image": "assets/images/11.png",
+                "question_subtext": "SELECT AVG(WAREHOUSE) FROM STOCKS;",
+                "choices": [
+                    {
+                        "text": "5",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "",
+                "image": "assets/images/11.png",
+                "question_subtext": "SELECT COUNT(PRICE) FROM STOCKS;",
+                "choices": [
+                    {
+                        "text": "3",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "",
+                "image": "assets/images/11.png",
+                "question_subtext": "Based on the given table Stocks choose the possible output if the following sql statement is executed.",
+                "question_note": "SELECT MAX(NAME) FROM STOCKS;",
+                "choices": [
+                    {
+                        "text": "ZONROX",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "",
+                "image": "assets/images/11.png",
+                "question_subtext": "Based on the given table Stocks choose the possible output if the following sql statement is executed.",
+                "question_note": "SELECT MIN(PRICE) FROM STOCKS;",
+                "choices": [
+                    {
+                        "text": "7",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "This query returns rows from both queries including all duplications",
+                "choices": [
+                    {
+                        "text": "Union All",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "This query returns the rows from both queries after eliminating duplications.",
+                "choices": [
+                    {
+                        "text": "Union",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "A type of function that helps how to group rows in a table into smaller sets and how to specify search criteria for groups of rows.",
+                "choices": [
+                    {
+                        "text": "Group Function",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Choose the letter of the correct answer based on the table EMPLOYEES as shown below. Table 1.0 EMPLOYEES",
+                "image": "assets/images/12.png",
+                "question_subtext": "Which of the following is the correct query that displays the maximum salary?",
+                "choices": [
+                    {
+                        "text": "SELECT MAX(SALARY) FROM EMPLOYEES;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT COUNT (MAX(SALARY)) FROM EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MAX SALARY FROM EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT COUNT (DISCTINCT MAX(SALARY)) FROM EMPLOYEES;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Choose the letter of the correct answer based on the table EMPLOYEES as shown below. Table 1.0 EMPLOYEES",
+                "image": "assets/images/12.png",
+                "question_subtext": "Which of the following is the correct query that display the maximum lastname concatenated to firstname and rename the column as “Employees Name”, Job_id and apply the ff. functions:",
+                "question_note": "• Count the Job_id; Apply where condition whose lastname ends with letter ‘N’; Group the job_id; and Apply having clause of employees having average salary that is greater than 10000.",
+                "choices": [
+                    {
+                        "text": "SELECT MAX(LASTNAME||FIRSTNAME) AS EMPLOYEES NAME, JOB_ID, COUNT(JOB_ID) FROM EMPLOYEES WHERE LASTNAME LIKE '%N' GROUP BY JOB_ID HAVING AVG(SALARY)>10000",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MAX(LASTNAME||FIRSTNAME) AS \"EMPLOYEES NAME\", JOB_ID, COUNT(JOB_ID) FROM EMPLOYEES WHERE LASTNAME LIKE '%N' GROUP BY JOB_ID HAVING AVG(SALARY)<10000;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MAX(LASTNAME||FIRSTNAME) AS \"EMPLOYEES NAME\", JOB_ID, COUNT(JOB_ID) FROM EMPLOYEES GROUP BY JOB_ID WHERE LASTNAME LIKE '%N' HAVING AVG(SALARY)>10000;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MAX(LASTNAME||FIRSTNAME) AS \"EMPLOYEES NAME\", JOB_ID, COUNT(JOB_ID) FROM EMPLOYEES WHERE LASTNAME LIKE '%N' GROUP BY JOB_ID HAVING AVG(SALARY)>10000;",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following query is correct which will display the same output as shown below?",
+                "image": "assets/images/13.png",
+                "choices": [
+                    {
+                        "text": "SELECT MIN(initcap(FIRSTNAME||' surnname is '||LASTNAME)) AS \"COMPLETE NAME\", MIN(MANAGER_ID) AS \"LOWEST MANAGER_ID\" FROM EMPLOYEES;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT MIN(LOWER(FIRSTNAME||' surnname is '||LASTNAME)) AS \"COMPLETE NAME\", MIN(MANAGER_ID) AS \"LOWEST MANAGER_ID\" FROM EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MIN(initcap(FIRSTNAME||' surnname is '||LASTNAME)) AS COMPLETE NAME, MIN(MANAGER_ID) AS \"LOWEST MANAGER_ID\" FROM EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MIN(LOWER(FIRSTNAME||surnname is ||LASTNAME)) AS \"COMPLETE NAME\", MIN(MANAGER_ID) AS \"LOWEST MANAGER_ID\" FROM EMPLOYEES;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following query is correct which will display the same output as shown below?",
+                "image": "assets/images/14.png",
+                "choices": [
+                    {
+                        "text": "SELECT MIN(LASTNAME), JOB_ID, MAX(SALARY) FROM EMPLOYEES WHERE JOB_ID LIKE 'REP%' GROUP BY JOB_ID;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MIN(LASTNAME), JOB_ID, MAX(SALARY) FROM EMPLOYEES WHERE JOB_ID LIKE '%REP%';",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MIN(LASTNAME), JOB_ID, MAX(SALARY) FROM EMPLOYEES WHERE JOB_ID LIKE '%REP%' GROUP BY JOB_ID;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT MIN(LASTNAME), MIN(JOB_ID), MAX(SALARY) FROM EMPLOYEES WHERE JOB_ID LIKE '%REP%' GROUP BY JOB_ID;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Choose the letter of the correct answer based on the table EMPLOYEES as shown below. Table 1.0 EMPLOYEES",
+                "image": "assets/images/12.png",
+                "question_subtext": "Which of the following is the correct that display distinct job_id and the the total number per distinct (unique) job_id.",
+                "choices": [
+                    {
+                        "text": "SELECT DISTICT(JOB_ID), COUNT(JOB_ID) AS “TOTAL NUMBER OF JOB_ID” FROM EMPLOYEES GROUP BY JOB_ID;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT DISTICT(JOB_ID), COUNT(JOB_ID) AS “TOTAL NUMBER OF JOB_ID” FROM EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DISTICT((JOB_ID), COUNT(JOB_ID)) AS “TOTAL NUMBER OF JOB_ID” FROM EMPLOYEES GROUP BY JOB_ID;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DISTICT(JOB_ID), COUNT*(JOB_ID) AS “TOTAL NUMBER OF JOB_ID” FROM EMPLOYEES GROUP BY JOB_ID;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following query is correct which will display the same output as shown below?",
+                "image": "assets/images/15.png",
+                "choices": [
+                    {
+                        "text": "SELECT COUNT ALL FROM EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT * FROM EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT COUNT(*) FROM EMPLOYEES;",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following query is correct which will display the same output as shown below?",
+                "image": "assets/images/16.png",
+                "choices": [
+                    {
+                        "text": "SELECT MIN(LASTNAME||FIRSTNAME) AS NAME, DEPARTMENT_ID FROM EMPLOYEES WHERE DEPARTMENT_ID IN(90,50) HAVING MIN(DEPARTMENT_ID)<=90;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MIN(LASTNAME||FIRSTNAME) AS NAME, DEPARTMENT_ID FROM EMPLOYEES WHERE DEPARTMENT_ID IN(90,50) GROUP BY DEPARTMENT_ID HAVING MIN(DEPARTMENT_ID)<=90;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT MIN(LASTNAME||FIRSTNAME) AS NAME, DEPARTMENT_ID FROM EMPLOYEES GROUP BY DEPARTMENT_ID WHERE DEPARTMENT_ID IN(90,50) HAVING MIN(DEPARTMENT_ID)<=90;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MIN(LASTNAME||FIRSTNAME) AS NAME, DEPARTMENT_ID FROM EMPLOYEES WHERE DEPARTMENT_ID IN(90,50) GROUP BY DEPARTMENT_ID HAVING(DEPARTMENT_ID)<=90;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Choose the letter of the correct answer based on the table EMPLOYEES as shown below. Table 1.0 EMPLOYEES",
+                "image": "assets/images/12.png",
+                "question_subtext": "Which of the following is the correct report that display the smallest (minimum) Surname.. and apply the ff. functions:",
+                "question_note": "• Get the average salary; Group the data per job_id; Get only job_id with a keyword “REP”; and Apply having clause, which the max salary per job_id is greater than 5000.",
+                "choices": [
+                    {
+                        "text": "SELECT MIN(LASTNAME), AVG(SALARY) FROM EMPLOYEES WHERE JOB_ID LIKE ‘%REP%’ GROUP BY JOB_ID HAVING MAX(SALARY)>500;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT CONCAT(DEPARTMENT_ID,JOB_ID),MIN(SALARY), MAX(SALARY) FROM EMPLOYEES GROUP BY JOB_ID;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MIN(LASTNAME), AVG(SALARY) FROM EMPLOYEES GROUP BY JOB_ID WHERE JOB_ID LIKE ‘%REP%’ HAVING MAX(SALARY)>500;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MIN(LASTNAME), AVG(SALARY) FROM EMPLOYEES WHERE JOB_ID NOT LIKE ‘%REP%’ GROUP BY JOB_ID HAVING MAX(SALARY)>500;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Choose the letter of the correct answer based on the table EMPLOYEES as shown below. Table 1.0 EMPLOYEES",
+                "image": "assets/images/12.png",
+                "question_subtext": "Which of the following is the correct query that display the Job_id and add the ff: function:",
+                "question_note": "• Count the total number of job_id per distinct values; Compute for the summary of salary per job_id; and Compute for the average salary per job_id",
+                "choices": [
+                    {
+                        "text": "SELECT COUNT (DISTINCT(JOB_ID) AS “NO. OF JOB_ID”, SUM(SALARY) AS “TOTAL SALARY”, AVG(SALARY) AS “AVERAGE SALARY” FROM EMPLOYEES GROUP BY JOB_ID;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DISTINCT(JOB_ID), COUNT * (JOB_ID) AS “NO. OF JOB_ID”, SUM(SALARY) AS “TOTAL SALARY”, AVG(SALARY) AS “AVERAGE SALARY” FROM EMPLOYEES GROUP BY JOB_ID;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT DISTINCT(JOB_ID), COUNT(JOB_ID) AS “NO. OF JOB_ID”, SUM(SALARY) AS “TOTAL SALARY”, AVG(SALARY) AS “AVERAGE SALARY” FROM EMPLOYEES GROUP BY JOB_ID;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT DISTINCT(JOB_ID), COUNT(JOB_ID) AS “NO. OF JOB_ID”, SUM(SALARY) AS “TOTAL SALARY”, AVG(SALARY) AS “AVERAGE SALARY” FROM EMPLOYEES;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following query is correct which will display the same output as shown below?",
+                "image": "assets/images/17.png",
+                "choices": [
+                    {
+                        "text": "SELECT MAX(LASTNAME||FIRSTNAME) AS NAME, MAX(SALARY) FROM EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MAX(LASTNAME||','||FIRSTNAME) AS NAME, MAX(SALARY) FROM EMPLOYEES;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT MAX(LASTNAME||','||FIRSTNAME) AS NAME, MIN(SALARY) FROM EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MAX(LASTNAME||''||FIRSTNAME) AS NAME, MAX(SALARY) FROM EMPLOYEES;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following query is correct which will display the same output as shown below?",
+                "image": "assets/images/18.png",
+                "question_subtext": "",
+                "question_note": "",
+                "choices": [
+                    {
+                        "text": "SELECT MIN(LASTNAME),MAX(FIRSTNAME),SUM(SALARY),AVG(SALARY) FROM EMPLOYEES WHERE JOB_ID LIKE = ‘ST’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MIN(LASTNAME),MAX(FIRSTNAME),SUM(SALARY),AVG(SALARY) FROM EMPLOYEES WHERE JOB_ID LIKE '%ST';",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MIN(LASTNAME),MAX(FIRSTNAME),SUM(SALARY),AVG(SALARY) FROM EMPLOYEES WHERE JOB_ID LIKE 'ST%';",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT MIN(LASTNAME),MAX(FIRSTNAME),SUM(SALARY),AVG(SALARY) FROM EMPLOYEES WHERE JOB_ID LIKE '%ST%';",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Given the output below. Which of the following is the correct PL/SQL to be used?",
+                "image": "assets/images/v.png",
+                "choices": [
+                    {
+                        "text": "",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Choose the letter of the correct answer based on the table EMPLOYEES as shown below. Table 1.0 EMPLOYEES",
+                "image": "assets/images/12.png",
+                "question_subtext": "Which of the following is the correct query that displays the MINIMUM salary of employees per job_id? Note job_id should be in lowercase. ",
+                "choices": [
+                    {
+                        "text": "SELECT MIN(SALARY) AS LOWEST SALARY, LOWER(JOB_ID) FROM EMPLOYEES GROUP BY JOB_ID;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MIN(SALARY) AS “LOWEST SALARY”, LOWER(JOB_ID) FROM EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MIN(SALARY) AS LOWEST SALARY, LOWER(JOB_ID) FROM EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MIN(SALARY) AS “LOWEST SALARY”, LOWER(JOB_ID) FROM EMPLOYEES GROUP BY JOB_ID;",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following query is correct which will display the same output as shown below?",
+                "image": "assets/images/19.png",
+                "choices": [
+                    {
+                        "text": "SELECT COUNT(MANAGER_ID) AS \"NO. OF MANAGER_ID\" FROM EMPLOYEES;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT COUNT *(MANAGER_ID) AS \"NO. OF MANAGER_ID\" FROM EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT COUNTDISTINCT(MANAGER_ID) AS \"NO. OF MANAGER_ID\" FROM EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT COUNT(MANAGER_ID)  NO. OF MANAGER_ID FROM EMPLOYEES;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Choose the letter of the correct answer based on the table EMPLOYEES as shown below. Table 1.0 EMPLOYEES",
+                "image": "assets/images/12.png",
+                "question_subtext": "Which of the following is the correct query that counts the number of ST_CLERK job_id? Rename the column as “Total no. of ST_CLERK”.",
+                "choices": [
+                    {
+                        "text": "SELECT COUNT(JOB_ID), AS “TOTAL NO. OF ST_CLERK” FROM EMPLOYEES WHERE JOB_ID = ‘ST_CLERK’;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT COUNT(JOB_ID), AS TOTAL NO. OF ST_CLERK FROM EMPLOYEES WHERE JOB_ID = ‘ST_CLERK’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT COUNT * (JOB_ID), AS “TOTAL NO. OF ST_CLERK” FROM EMPLOYEES WHERE JOB_ID = ‘ST_CLERK’;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT COUNT(JOB_ID), AS “TOTAL NO. OF ST_CLERK” FROM EMPLOYEES WHERE JOB_ID != ‘ST_CLERK’;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following query is correct which will display the same output as shown below?",
+                "image": "assets/images/20.png",
+                "choices": [
+                    {
+                        "text": "SELECT COUNT(DISTINCT MANAGER_ID) AS NO. OF MANAGER_ID FROM EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT COUNT *(DISTINCT MANAGER_ID) AS \"NO. OF MANAGER_ID\" FROM EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT COUNT(MANAGER_ID) AS \"NO. OF MANAGER_ID\" FROM EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT COUNT(DISTINCT MANAGER_ID) AS \"NO. OF MANAGER_ID\" FROM EMPLOYEES",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Choose the letter of the correct answer based on the table EMPLOYEES as shown below. Table 1.0 EMPLOYEES",
+                "image": "assets/images/12.png",
+                "question_subtext": "Which of the following is the correct query that displays the minimum lastname?",
+                "choices": [
+                    {
+                        "text": "SELECT COUNT (MIN(LASTNAME)) FROM EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT COUNT (DISCTINCT MIN(LASTNAME)) FROM EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MIN(LASTNAME) FROM EMPLOYEES;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT MIN LASTNAME FROM EMPLOYEES;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following query is correct which will display the same output as shown below?",
+                "image": "assets/images/21.png",
+                "choices": [
+                    {
+                        "text": "SELECT MAX(FIRSTNAME), MANAGER_ID, COUNT(SALARY), AVG(SALARY) FROM EMPLOYEES GROUP BY MANAGER_ID WHERE SALARY BETWEEN 6000 AND 10000 HAVING MIN(SALARY) >= 5000;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MAX(FIRSTNAME), MANAGER_ID, COUNT(SALARY), AVG(SALARY) FROM EMPLOYEES WHERE SALARY BETWEEN 6000 AND 10000 HAVING MIN(SALARY) >= 5000 GROUP BY MANAGER_ID;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MAX(FIRSTNAME), MANAGER_ID, COUNT(SALARY), AVG(SALARY) FROM EMPLOYEES WHERE SALARY BETWEEN 6000 AND 10000 GROUP BY MANAGER_ID HAVING (SALARY) >= 5000;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MAX(FIRSTNAME), MANAGER_ID, COUNT(SALARY), AVG(SALARY) FROM EMPLOYEES WHERE SALARY BETWEEN 10000 AND 6000 GROUP BY MANAGER_ID HAVING MIN(SALARY) >= 5000;",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Choose the letter of the correct answer based on the table EMPLOYEES as shown below. Table 1.0 EMPLOYEES",
+                "image": "assets/images/12.png",
+                "question_subtext": "Which of the following is the correct query that display the Minimum firstname concatenated to lastname? Look for the maximum salary that is less than 10000 per department_id. ",
+                "choices": [
+                    {
+                        "text": "SELECT MIN(FIRSTNAME||LASTNAME) FROM EMPLOYEES GROUP BY DEPARTMENT_ID HAVING MAX(SALARY);",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MIN(FIRSTNAME||LASTNAME) FROM EMPLOYEES HAVING MAX(SALARY)<10000 GROUP BY DEPARTMENT_ID;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MIN(FIRSTNAME,LASTNAME) FROM EMPLOYEES GROUP BY DEPARTMENT_ID HAVING MAX(SALARY)<10000;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT MIN(FIRSTNAME||LASTNAME) FROM EMPLOYEES GROUP BY DEPARTMENT_ID HAVING MAX(SALARY)<10000;",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "Which of the following query is correct which will display the same output as shown below?",
+                "image": "assets/images/22.png",
+                "choices": [
+                    {
+                        "text": "SELECT JOB_ID, COUNTDISTINCT(JOB_ID)\"NO. OF JOB_ID\", SUM(SALARY), AVG(SALARY) FROM EMPLOYEES GROUP BY JOB_ID;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT JOB_ID, COUNT*(JOB_ID)\"NO. OF JOB_ID\", SUM(SALARY), AVG(SALARY) FROM EMPLOYEES GROUP BY JOB_ID;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT JOB_ID, COUNT(JOB_ID)\"NO. OF JOB_ID\", SUM(SALARY), AVG(SALARY) FROM EMPLOYEES GROUP BY JOB_ID;",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "SELECT JOB_ID, COUNT(JOB_ID)\"NO. OF JOB_ID\", SUM(SALARY), AVG(SALARY) FROM EMPLOYEES;",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "Choose the letter of the correct answer based on the table EMPLOYEES as shown below. Table 1.0 EMPLOYEES",
+                "image": "assets/images/12.png",
+                "question_subtext": "Which of the following is the correct query that displays the lowest salary rename as “LOWEST SALARY”, maximum salary rename as “HIGHEST SALARY” and department_id concatenated to job_id?",
+                "choices": [
+                    {
+                        "text": "SELECT CONCAT(DEPARTMENT_ID,JOB_ID),MIN(SALARY), MAX(SALARY) FROM EMPLOYEES;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT CONCAT(DEPARTMENT_ID,JOB_ID),MIN(SALARY), MAX(SALARY) FROM EMPLOYEES GROUP BY JOB_ID;",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT CONCAT(DEPARTMENT_ID,JOB_ID),MIN(SALARY), MAX(SALARY) FROM EMPLOYEES GROUP BY DEPARTMENT_ID",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "SELECT CONCAT(DEPARTMENT_ID,JOB_ID),MIN(SALARY), MAX(SALARY) FROM EMPLOYEES GROUP BY JOB_ID,DEPARTMENT_ID;",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "question_text": "He proposed the relational model for database systems in 1970.",
+                "choices": [
+                    {
+                        "text": "Dr. J.F Codd",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Dr. Lee Codd",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Dr. E.F Codd",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "DrcL.F Codd",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "The overall logical structure (schema) of a database can be expressed graphically by",
+                "choices": [
+                    {
+                        "text": "ER Model",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "DB Diagram",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "ER Diagram",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "DM Model",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "question_text": "This is used to bring together data that is stored in different tables by specifying the link between them.",
+                "choices": [
+                    {
+                        "text": "Projection",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Joins",
+                        "is_correct": true
+                    },
+                    {
+                        "text": "Inclusion",
+                        "is_correct": false
+                    },
+                    {
+                        "text": "Selection",
+                        "is_correct": false
+                    }
+                ]
             }
         ]
     }
