@@ -9,10 +9,19 @@ createApp({
         };
     },
     computed: {
+        // optimize filteredQuestions() to search also for question_subtext and question_note
         filteredQuestions() {
-            return this.source.questions.filter(q => 
-                q.question_text.toLowerCase().includes(this.search.toLowerCase())
-            );
+            const keyword = this.search.toLowerCase();
+            return this.source.questions.filter(q => {
+                const textMatch = q.question_text.toLowerCase().includes(keyword);
+                const subtextMatch = q.question_subtext 
+                    ? q.question_subtext.toLowerCase().includes(keyword) 
+                    : false;
+                const noteMatch = q.question_note
+                    ? q.question_note.toLowerCase().includes(keyword) 
+                    : false;
+                return textMatch || subtextMatch || noteMatch;
+            });
         }
     },
     mounted() {
