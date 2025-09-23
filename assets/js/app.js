@@ -5,7 +5,8 @@ createApp({
         return {
             source: { title: '', questions: [] },
             search: '',
-            isMobile: false
+            isMobile: false,
+            currentYear: new Date().getFullYear()
         };
     },
     computed: {
