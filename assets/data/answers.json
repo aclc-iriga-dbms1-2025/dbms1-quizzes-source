@@ -1313,7 +1313,9 @@
                 ]
             },
             {
-                "question_text": "Which of the following is the correct report that will display the distinct value for CLASS and WAREHOUSE limit the rows by getting only the parts under WAREHOUSE 3?",
+                "question_text": "Choose the letter of the correct answer based on table PARTS as shown below",
+                "image":"assets/images/23.PNG",
+                "question_subtext": "Which of the following is the correct report that will display the distinct value for CLASS and WAREHOUSE limit the rows by getting only the parts under WAREHOUSE 3?",
                 "choices": [
                     {
                         "text": "SELECT CLASS, WAREHOUSE FROM PARTS WHERE WAREHOUSE = 3;",
@@ -1334,7 +1336,9 @@
                 ]
             },
             {
-                "question_text": "Which of the following is the correct report that will list only the column DESCRIPTION, PARTNUM, CLASS, and PRICE of all PART whose CLASS is equal to HW.",
+                "question_text": "Choose the letter of the correct answer based on table PARTS as shown below",
+                "image": "assets/images/23.PNG",
+                "question_subtext": "Which of the following is the correct report that will list only the column DESCRIPTION, PARTNUM, CLASS, and PRICE of all PART whose CLASS is equal to HW.",
                 "choices": [
                     {
                         "text": "SELECT DESCRIPTION, PARTNUM, CLASS, PRICE FROM PARTS WHERE CLASS=’HW’;",
@@ -1355,7 +1359,9 @@
                 ]
             },
             {
-                "question_text": "Which of the following is the correct report listing only the column PARTNUM, DESCRIPTION and PRICE of all PARTS where price is less than 500. Sort the PRICE in ascending order.",
+                "question_text": "Choose the letter of the correct answer based on table PARTS as shown below",
+                "image": "assets/images/23.PNG",
+                "question_subtext": "Which of the following is the correct report listing only the column PARTNUM, DESCRIPTION and PRICE of all PARTS where price is less than 500. Sort the PRICE in ascending order.",
                 "choices": [
                     {
                         "text": "SELECT PARTNUN, DESCRIPTION, PRICE FROM PARTS WHERE PRICE < 500;",
@@ -1376,7 +1382,9 @@
                 ]
             },
             {
-                "question_text": "Which of the following is the correct report listing only the column DESCRIPTION, PARTNUM, CLASS and PRICE of all parts where the description fourth letter starting from the first is equal to ‘D’.",
+                "question_text": "Choose the letter of the correct answer based on table PARTS as shown below",
+                "image": "assets/images/23.PNG",
+                "question_subtext": "Which of the following is the correct report listing only the column DESCRIPTION, PARTNUM, CLASS and PRICE of all parts where the description fourth letter starting from the first is equal to ‘D’.",
                 "choices": [
                     {
                         "text": "SELECT DESCRIPTION, PARTNUM, CLASS, PRICES FROM PARTS WHERE DESCRIPTION LIKE ‘___D%’;",
@@ -1397,7 +1405,9 @@
                 ]
             },
             {
-                "question_text": "Which of the following is the correct report listing only the column DESCRIPTION, CLASS and PRICE of all PARTS where class is not equal to AP.",
+                "question_text": "Choose the letter of the correct answer based on table PARTS as shown below",
+                "image": "assets/images/23.PNG",
+                "question_subtext": "Which of the following is the correct report listing only the column DESCRIPTION, CLASS and PRICE of all PARTS where class is not equal to AP.",
                 "choices": [
                     {
                         "text": "SELECT DESCRIPTION, CLASS, PRICE FROM PARTS WHERE CLASS NOT LIKE ‘%AP%’;",
@@ -1418,7 +1428,9 @@
                 ]
             },
             {
-                "question_text": "Which of the following is the correct report listing only the column CLASS, DESCRIPTION and PRICE of all PARTS where price range is between 200 to 500. Sort the Price in descending order.",
+                "question_text": "Choose the letter of the correct answer based on table PARTS as shown below",
+                "image": "assets/images/23.PNG",
+                "question_subtext": "Which of the following is the correct report listing only the column CLASS, DESCRIPTION and PRICE of all PARTS where price range is between 200 to 500. Sort the Price in descending order.",
                 "choices": [
                     {
                         "text": "SELECT CLASS, DESCRIPTION, PRICE FROM PARTS WHERE PRICE BETWEEN 200 AND 500;",
@@ -1439,7 +1451,9 @@
                 ]
             },
             {
-                "question_text": "Which of the following is the correct report listing only the column DESCRIPTION, ONHAND and WAREHOUSE of all PARTS where ONHAND is greater than or equal to 21.",
+                "question_text": "Choose the letter of the correct answer based on table PARTS as shown below",
+                "image": "assets/images/23.PNG",
+                "question_subtext": "Which of the following is the correct report listing only the column DESCRIPTION, ONHAND and WAREHOUSE of all PARTS where ONHAND is greater than or equal to 21.",
                 "choices": [
                     {
                         "text": "SELECT DESCRIPTION, ONHAND, WAREHOUSE FROM PARTS WHERE ONHAND >=21;",
@@ -1460,7 +1474,9 @@
                 ]
             },
             {
-                "question_text": "Which of the following is the correct report showing all rows and columns sort the description in ascending order.",
+                "question_text": "Choose the letter of the correct answer based on table PARTS as shown below",
+                "image": "assets/images/23.PNG",
+                "question_subtext": "Which of the following is the correct report showing all rows and columns sort the description in ascending order.",
                 "choices": [
                     {
                         "text": "SELECT * FROM PARTS ORDER BY DESCRIPTION DESC;",
@@ -1481,7 +1497,9 @@
                 ]
             },
             {
-                "question_text": "Which of the following is the correct report listing only the column DESCRIPTION, WAREHOUSE, CLASS and PRICE of all parts where the description contains keyword ‘SHE’.",
+                "question_text": "Choose the letter of the correct answer based on table PARTS as shown below",
+                "image":"assets/images/23.PNG",
+                "question_subtext": "Which of the following is the correct report listing only the column DESCRIPTION, WAREHOUSE, CLASS and PRICE of all parts where the description contains keyword ‘SHE’.",
                 "choices": [
                     {
                         "text": "SELECT DESCRIPTION, WAREHOUSE, CLASS, PRICE FROM PARTS WHERE DESCRIPTION LIKE ‘%SHE%’;",
@@ -1502,7 +1520,9 @@
                 ]
             },
             {
-                "question_text": "Which of the following is the correct report that will merge the column DESCRIPTION and PRICE put a literal character string of = “ with a price of ” in between the two columns. Limit the rows returned by getting only the partnum that starts with letter ‘K’",
+                "question_text": "Choose the letter of the correct answer based on table PARTS as shown below",
+                "image": "assets/images/23.PNG",
+                "question_subtext": "Which of the following is the correct report that will merge the column DESCRIPTION and PRICE put a literal character string of = “ with a price of ” in between the two columns. Limit the rows returned by getting only the partnum that starts with letter ‘K’.",
                 "choices": [
                     {
                         "text": "SELECT (DESCRIPTION|| ‘WITH A PRICE OF’ || PRICE) FROM PARTS WHERE PARTNUM LIKE ‘K%’;",
@@ -1523,7 +1543,9 @@
                 ]
             },
             {
-                "question_text": "Which of the following is the correct report that will display the DESCRIPTION, WAREHOUSE AND distinct value for CLASS.",
+                "question_text": "Choose the letter of the correct answer based on table PARTS as shown below",
+                "image": "assets/images/23.PNG",
+                "question_subtext": "Which of the following is the correct report that will display the DESCRIPTION, WAREHOUSE AND distinct value for CLASS.",
                 "choices": [
                     {
                         "text": "SELECT DESCRIPTION, WAREHOUSE, DISTINCT (CLASS) FROM PARTS;",
@@ -1544,7 +1566,9 @@
                 ]
             },
             {
-                "question_text": "Which of the following is the correct report listing the column PARTNO, DESCRIPTION and WAREHOUSE. Get only that description that does not ends with ‘ER’. Note that you have to merge the said three columns, rename the merge column as “Parts Record”. Below is the sample output for column. Parts Record AT94is the part number ofIRONwhich belong to warehouse3",
+                "question_text": "Choose the letter of the correct answer based on table PARTS as shown below",
+                "image": "assets/images/23.PNG",
+                "question_subtext": "Which of the following is the correct report listing the column PARTNO, DESCRIPTION and WAREHOUSE. Get only that description that does not ends with ‘ER’. Note that you have to merge the said three columns, rename the merge column as “Parts Record”. Below is the sample output for column. Parts Record AT94is the part number ofIRONwhich belong to warehouse3",
                 "choices": [
                     {
                         "text": "SELECT (PARTNUM || ‘is the part number of’|| DESCRIPTION || ‘which belongs to’ || WAREHOUSE FROM PARTS WHERE PARTNUM NOT LIKE ‘%ER’;",
@@ -1565,7 +1589,9 @@
                 ]
             },
             {
-                "question_text": "Which of the following is the correct report listing only the column PARTNUM, CLASS and ONHAND of all parts where partnum is equal to AT94, DR93 and KV29. (Note 1 query only and do not use logical condition)",
+                "question_text": "Choose the letter of the correct answer based on table PARTS as shown below",
+                "image": "assets/images/23.PNG",
+                "question_subtext": "Which of the following is the correct report listing only the column PARTNUM, CLASS and ONHAND of all parts where partnum is equal to AT94, DR93 and KV29. (Note 1 query only and do not use logical condition)",
                 "choices": [
                     {
                         "text": "SELECT PARTNUM, CLASS, ONHAND FROM PARTS WHERE PARTNUM IN (‘AT94’,’DR93’,’KV29’);",
@@ -1586,7 +1612,9 @@
                 ]
             },
             {
-                "question_text": "Which of the following is the correct report listing only the column DESCRIPTION, ONHAND, CLASS and PRICE of all price where the description ends with letter ‘N’.",
+                "question_text": "Choose the letter of the correct answer based on table PARTS as shown below",
+                "image": "assets/images/23.PNG",
+                "question_subtext": "Which of the following is the correct report listing only the column DESCRIPTION, ONHAND, CLASS and PRICE of all price where the description ends with letter ‘N’.",
                 "choices": [
                     {
                         "text": "SELECT DESCRIPTION, ONHAND, CLASSS FROM PARTS WHERE DESCRIPTION LIKE ‘%N’;",
@@ -1607,7 +1635,9 @@
                 ]
             },
             {
-                "question_text": "Which of the following is the correct report listing the DESCRIPTION and Price (Note that in column PRICE add ADDITIONAL 10000). Get only the prices with no digit that is equal to ‘5’. Note that you have to concatenate the said column and rename the merge column as “New Price Lists”. Sort the data in DESC order by Price.",
+                "question_text": "Choose the letter of the correct answer based on table PARTS as shown below",
+                "image": "assets/images/23.PNG",
+                "question_subtext": "Which of the following is the correct report listing the DESCRIPTION and Price (Note that in column PRICE add ADDITIONAL 10000). Get only the prices with no digit that is equal to ‘5’. Note that you have to concatenate the said column and rename the merge column as “New Price Lists”. Sort the data in DESC order by Price.",
                 "choices": [
                     {
                         "text": "SELECT DESCRIPTION, PRICE + 10000 AS “NEW PRICE LISTS” FROM PARTS ORDER BY PRICE DESC;",
@@ -1932,7 +1962,7 @@
                 ]
             },
             {
-                "question_text": "Given the output below. Which of the following is the correct PL/SQL to be used",
+                "question_text": "Given the output below. Which of the following is the correct PL/SQL to be used?",
                 "image": "assets/images/8.png",
                 "choices": [
                     {
@@ -2941,28 +2971,6 @@
                     },
                     {
                         "text": "SELECT MIN(LASTNAME),MAX(FIRSTNAME),SUM(SALARY),AVG(SALARY) FROM EMPLOYEES WHERE JOB_ID LIKE '%ST%';",
-                        "is_correct": false
-                    }
-                ]
-            },
-            {
-                "question_text": "Given the output below. Which of the following is the correct PL/SQL to be used?",
-                "image": "assets/images/v.png",
-                "choices": [
-                    {
-                        "text": "",
-                        "is_correct": false
-                    },
-                    {
-                        "text": "",
-                        "is_correct": false
-                    },
-                    {
-                        "text": "",
-                        "is_correct": false
-                    },
-                    {
-                        "text": "",
                         "is_correct": false
                     }
                 ]
